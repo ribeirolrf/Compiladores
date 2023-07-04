@@ -1,0 +1,27 @@
+Taboada {
+	int i
+	int r
+	int n
+	escreva "Digite um numero:"
+	leia n
+	escreva n
+	novalinha
+	   para i = 1 ate 10 {
+	     r = i * n
+	     escreva n
+	     escreva " x "
+	     escreva i
+	     escreva " = "
+	     escreva r
+	     escreva "   "
+	     se i > 5 {
+	       escreva "maior que 5"
+	     }
+	     novalinha
+	   }
+	i = 0
+	enquanto i < 10 faca {
+	     r = r + i 
+	     i = i + 1
+	}
+}

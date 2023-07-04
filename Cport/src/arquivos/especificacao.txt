@@ -1,0 +1,25 @@
+<letra> ::= abcdefghijklmnopqrstuvwxyz
+<numero> ::= -+0123456789.
+<simbolo> ::= :\
+<literal> ::= <letra>|<numero>|<simbolo>
+<string> ::= "<literal>"
+<var> ::= <letra> 
+<tipo> ::= int | float | bool| char
+<opAritmetico> ::= + | - | * | / | ^ | %
+<opRelacional> ::= > | < | = | !=
+<nome> ::= <literal>
+<variavelNumero> ::= <numero>|<variavel>
+-------------------------------------
+1) <nome> {
+    so vale se comecar com letra maiuscula
+2) <tipo> <var>;
+    var deve comecar com letra e maximo 30 carcter
+3) leia <var>
+4) escreva <var> | <string>
+5) <var> = <var> | "<letra>" | <numero>
+6) <var> = <var> <opAritmetico> <var>
+7) <var> = <var> <opRelacional> <var>
+8) se  <var> <opRelacional> <var>|<numero>  {
+9) }
+10) para <var> = <numero> ate <var>|numero {
+11) novalinha
